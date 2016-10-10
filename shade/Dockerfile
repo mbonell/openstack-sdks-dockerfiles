@@ -4,6 +4,7 @@
 FROM ubuntu:16.04
 MAINTAINER Marcela Bonell <marcelabonell@gmail.com>
 
+# Update the repository sources list and install dependencies
 RUN apt-get update && apt-get install -y \
 	build-essential \
   libssl-dev \
@@ -16,10 +17,12 @@ RUN apt-get update && apt-get install -y \
   git \
   wget
 
+# Install Shade
 RUN pip install shade
 
 WORKDIR /root
 
+# Create the config file to work with the clouds
 RUN wget https://raw.githubusercontent.com/MBonell/openstack-sdks-challenges/master/shade/clouds.yml && \
   mkdir -p .config/openstack && \
   mv clouds.yml .config/openstack
