@@ -1,7 +1,7 @@
 Shade
 ==========
 
-This build a development environment to work with the OpenStack Shade SDK: (https://clearlinux.org/documentation/swupdate_how_to_run_the_updater.html)
+This build a development environment to work with the OpenStack Shade SDK: http://docs.openstack.org/infra/shade/
 
 Build
 -----
