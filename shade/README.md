@@ -1,7 +1,7 @@
 Shade
 ==========
 
-This build a development environment to work with the OpenStack Shade SDK: http://docs.openstack.org/infra/shade/
+This build a development environment to work with the OpenStack Python SDK: Shade http://docs.openstack.org/infra/shade/
 
 Build
 -----
