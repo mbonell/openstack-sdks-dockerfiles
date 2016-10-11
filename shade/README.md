@@ -20,3 +20,9 @@ Run the OpenStack Shade SDK container
 ```
     docker run -it mbonell/openstack-shade
 ```
+
+Or run the container using a host directory as a data volume
+----------------------------
+```
+    docker run -it -v <host_directory>:/root mbonell/openstack-shade
+```
