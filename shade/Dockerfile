@@ -6,7 +6,7 @@ MAINTAINER Marcela Bonell <marcelabonell@gmail.com>
 
 # Update the repository sources list and install dependencies
 RUN apt-get update && apt-get install -y \
-	build-essential \
+  build-essential \
   libssl-dev \
   libffi-dev \
   python-dev \
