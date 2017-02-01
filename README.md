@@ -6,3 +6,4 @@ This repository holds Dockerfiles to build development environment to work with 
 Containers
 -----------
 - Shade (Python)
+- Gophercloud (Golang)
