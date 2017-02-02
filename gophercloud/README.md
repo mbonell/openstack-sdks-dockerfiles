@@ -1,7 +1,7 @@
 Gophercloud
 ==========
 
-This build a development environment to work with the OpenStack Golang SDK: Gophercloud http://gophercloud.io/
+This image builds a development environment to work with the OpenStack Golang SDK: Gophercloud http://gophercloud.io/
 
 Build
 -----
@@ -26,3 +26,11 @@ Or run the container using a host directory as a data volume
 ```
     docker run -it -v <host_directory>:/root/workspace mbonell/openstack-gophercloud
 ```
+
+Extra configurations for the vim-go IDE
+----------------------------
+Test
+set t_Co=256
+
+Test
+:GoInstallBinaries
